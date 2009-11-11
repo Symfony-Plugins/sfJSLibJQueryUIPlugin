@@ -1,0 +1,7 @@
+all:
+  .settings:
+    js_lib_jquery_ui:
+      dependencies: jquery
+      web_dir:      /sfJSLibJQueryUIPlugin
+      js_files:     jquery-ui-1.7.2.custom.min.js
+      css_files:    jquery-ui-1.7.2.custom.css

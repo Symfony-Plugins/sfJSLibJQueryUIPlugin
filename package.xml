@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.4.6" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>sfJSLibJQueryUIPlugin</name>
+ <channel>plugins.symfony-project.org</channel>
+ <summary><![CDATA[Convenience package containing the jQueryUI library version 1.7.2 and
+ settings for use with the sfJSLibManagerPlugin]]></summary>
+ <description><![CDATA[Contains the javascript, css & images from the jQueryUI library
+ version 1.7.2 package. When used in conjunction with the sfJSLibManagerPlugin
+ you can include its js & css files simply by calling
+
+    sfJSLibManager::addLib('jquery_ui');
+
+ This makes it very easy to write widgets, for example, which rely on this
+ library automatically include their js & css assets without having to manually
+ add them to view.yml]]>
+ </description>
+ <lead>
+  <name>Rich Birch</name>
+  <user>uncleringo</user>
+  <email>rich@trafficdigital.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2009-11-11</date>
+ <time>13:25:00</time>
+ <version>
+  <release>1.7.2.1</release>
+  <api>1.7.2.1</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.symfony-project.org/license">MIT license</license>
+ <notes>-</notes>
+ <contents>
+  <dir name="/">
+   <file role="data" name="README" />
+   <file role="data" name="LICENSE" />
+   <dir name="config">
+    <file role="data" name="settings.yml" />
+   </dir>
+   <dir name="web">
+    <dir name="css">
+     <dir name="images">
+      <file role="data" name="ui-bg_diagonals-thick_18_b81900_40x40.png" />
+      <file role="data" name="ui-bg_diagonals-thick_20_666666_40x40.png" />
+      <file role="data" name="ui-bg_flat_10_000000_40x100.png" />
+      <file role="data" name="ui-bg_glass_100_f6f6f6_1x400.png" />
+      <file role="data" name="ui-bg_glass_100_fdf5ce_1x400.png" />
+      <file role="data" name="ui-bg_glass_65_ffffff_1x400.png" />
+      <file role="data" name="ui-bg_gloss-wave_35_f6a828_500x100.png" />
+      <file role="data" name="ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+      <file role="data" name="ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+      <file role="data" name="ui-icons_222222_256x240.png" />
+      <file role="data" name="ui-icons_228ef1_256x240.png" />
+      <file role="data" name="ui-icons_ef8c08_256x240.png" />
+      <file role="data" name="ui-icons_ffd27a_256x240.png" />
+      <file role="data" name="ui-icons_ffffff_256x240.png" />
+     </dir>
+     <file role="data" name="jquery-ui-1.7.2.custom.css" />
+    </dir>
+    <dir name="js">
+     <file role="data" name="jquery-ui-1.7.2.custom.min.js" />
+    </dir>
+   </dir>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.1</min>
+   </pearinstaller>
+   <package>
+    <name>symfony</name>
+    <channel>pear.symfony-project.com</channel>
+    <min>1.2.0</min>
+    <max>1.3.0</max>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.7.2.1</release>
+    <api>1.7.2.1</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <license uri="http://www.symfony-project.com/license">MIT license</license>
+   <date>2009-11-11</date>
+   <notes>
+    Added instructions to publish assets
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.7.2</release>
+    <api>1.7.2</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <license uri="http://www.symfony-project.com/license">MIT license</license>
+   <date>2009-11-11</date>
+   <notes>
+    Initial release
+   </notes>
+  </release>
+ </changelog>
+</package>
